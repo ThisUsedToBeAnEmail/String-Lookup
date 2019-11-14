@@ -148,7 +148,7 @@ Indicate the name of the column for storing "id" values.  Defaults to C<id>.
 
 Indicate the name of the column for storing strings.  Defaults to C<name>.
 
-=back 4
+=back
 
 =head1 REQUIRED MODULES
 

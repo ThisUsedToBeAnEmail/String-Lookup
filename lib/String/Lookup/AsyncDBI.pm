@@ -174,7 +174,7 @@ Defaults to the content of the C<STRING_LOOKUP_ASYNC_DIR> environment
 variable.  C<Must be specified> either directly or indirectly with the
 environment variable.
 
-=back 4
+=back
 
 =head1 REQUIRED MODULES
 
