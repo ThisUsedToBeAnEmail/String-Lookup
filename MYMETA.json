@@ -1,0 +1,49 @@
+{
+   "abstract" : "convert strings to ID's authoritatively and vice-versa",
+   "author" : [
+      "Elizabeth Mattijsen (liz@dijkmat.nl)"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.120630, CPAN::Meta::Converter version 2.150010",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "String-Lookup",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0",
+            "Module::Metadata" : "1.000033",
+            "threads" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Encode" : "0",
+            "Scalar::Util" : "0",
+            "autodie" : "0",
+            "bytes" : "0",
+            "perl" : "5.014",
+            "warnings" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "version" : "0.12",
+   "x_serialization_backend" : "JSON::PP version 4.04"
+}

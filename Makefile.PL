@@ -15,6 +15,7 @@ WriteMakefile (
 	ABSTRACT	=> "convert strings to ID's authoritatively and vice-versa",
 	VERSION_FROM	=> 'lib/String/Lookup.pm',
 	LICENSE	=> 'perl',
+	MIN_PERL_VERSION => '5.014',
 	CONFIGURE_REQUIRES => {
 		'ExtUtils::MakeMaker' => '0',
                 'Module::Metadata' => '1.000033',
